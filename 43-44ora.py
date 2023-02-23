@@ -5,7 +5,7 @@ lista2 = [1,3,5,7]
 lista3 = [1,55,9,67]
 
 
-def oszzeges_tetele(lista_oszegzes):
+def osszeges_tetele(lista_oszegzes):
     osszesen = 0
     for szam in lista_oszegzes:
             osszesen = osszesen + szam
@@ -26,7 +26,7 @@ def eldontes_tetele(lista_eldontes):
         print('Nincs a listában hárommal osztható szám.')
 
 
-oszzeges_tetele(lista1)
-oszzeges_tetele(lista2)
-oszzeges_tetele([10,20,30])
+osszeges_tetele(lista1)
+osszeges_tetele(lista2)
+osszeges_tetele([10,20,30])
 eldontes_tetele(lista3)
